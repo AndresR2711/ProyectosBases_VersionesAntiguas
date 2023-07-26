@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="center"
+        android:textColor="#47BD32"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Seleccione el medio de transporte"
+        android:textAlignment="center"
+        android:textColor="#47BC32"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Horario de salida"
+        android:textAlignment="center"
+        android:textColor="#47BB32"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHorarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horarios"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="20sp" />
+
+</LinearLayout>
